@@ -6,7 +6,7 @@
   "scripts": {
   "dev": "vite",
   "build": "vite build",
-  "start": "node server.js", // Este es el script que se ejecutará en producción
+  "start": "node server.js",
   "lint": "eslint .",
   "preview": "vite preview"
 },
