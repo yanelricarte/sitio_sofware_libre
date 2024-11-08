@@ -48,14 +48,6 @@
   text-decoration: underline;
 }
 
-/* Footer */
-.footer {
-  background-color: #2D2D2D;  /* Fondo oscuro para el footer */
-  color: #FFFFFF;  /* Texto blanco para contraste */
-  padding: 20px 0;
-  text-align: center;
-  font-size: 1rem;
-}
 
 /* src/components/Button.css */
 .btn {
@@ -81,5 +73,5 @@
 }
 
 .btn-secondary:hover {
-  background-color: #757575;  /* Gris oscuro para hover */
+  background-color: #757575;  
 }

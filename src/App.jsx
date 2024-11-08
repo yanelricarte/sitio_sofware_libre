@@ -8,7 +8,7 @@ import Imagen from './pages/Imagen';
 import Revista from './pages/Revista';
 import Podcast from './pages/Podcast';
 import Video from './pages/Video';
-import './App.css';
+import './App.css';  
 
 const App = () => {
   return (

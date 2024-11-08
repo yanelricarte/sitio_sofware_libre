@@ -7,8 +7,8 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-container">
-        <a href="/">  {/* Enlace al inicio */}
-          <img src={logo} className="logo" alt="Logo UTN" />  {/* Imagen del logo */}
+        <a href="/">  
+          <img src={logo} className="logo" alt="Logo UTN" /> 
         </a>
         <h1 className="title">Trabajo Integrador Final II</h1>
         <h2 className="subtitle">Gestión de Recursos Digitales con Software Libre</h2>
