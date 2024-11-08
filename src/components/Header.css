@@ -1,17 +1,15 @@
-/* src/components/Header.css */
 .header {
-  background-color: #F7F8FA;  /* Gris muy suave para el fondo, limpio y elegante */
-  color: #333333;  /* Gris oscuro para el texto */
+  background-color: #F7F8FA;  
+  color: #333333;  
   padding: 20px 0;
-  font-family: 'Poppins', sans-serif;  /* Tipografía moderna */
+  font-family: 'Poppins', sans-serif;  
 }
-
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
   margin: 0 auto;
+  gap: 1rem;
 }
 
 .logo {
@@ -19,15 +17,15 @@
 }
 
 .title {
-  font-size: 2.6rem;
+  font-size: 2.2rem;
   font-weight: 600;
-  color: #2D2D2D;  /* Gris oscuro suave */
+  color: #2D2D2D;  
   letter-spacing: 1px;
 }
 
 .subtitle {
-  font-size: 1.6rem;
-  color: #5D5D5D;  /* Gris medio, más suave */
+  font-size: 1.2rem;
+  color: #5D5D5D;  
   opacity: 0.8;
 }
 
