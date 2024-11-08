@@ -1,39 +1,49 @@
 .header {
-  background-color: #F7F8FA;  
-  color: #333333;  
-  padding: 20px 0;
-  font-family: 'Poppins', sans-serif;  
+  background-color: #F7F8FA;
+  color: #333333;
   padding: 1rem;
+  font-family: 'Poppins', sans-serif;
 }
+
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0 auto;
   gap: 1rem;
+  flex-wrap: wrap; 
+  padding: 0 1rem; 
+  width: 100%;
 }
 
+/* Logo */
 .logo {
-  height: 50px;  /* Logo de tamaño moderado */
+  height: 50px;
 }
 
+/* Título principal */
 .title {
   font-size: 2.2rem;
   font-weight: 600;
-  color: #2D2D2D;  
+  color: #2D2D2D;
   letter-spacing: 1px;
 }
 
+/* Subtítulo */
 .subtitle {
   font-size: 1.2rem;
-  color: #5D5D5D;  
+  color: #5D5D5D;
   opacity: 0.8;
 }
 
+/* Navegación */
 .nav ul {
   display: flex;
+flex-direction: column;
   gap: 25px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav ul li a {
@@ -44,14 +54,13 @@
 }
 
 .nav ul li a:hover {
-  color: #FF6F00;  /* Naranja suave como acento */
+  color: #FF6F00; 
   text-decoration: underline;
 }
 
-
-/* src/components/Button.css */
+/* Estilos para botones */
 .btn {
-  background-color: #FF6F00;  /* Naranja vibrante */
+  background-color: #FF6F00;
   color: white;
   padding: 12px 25px;
   font-size: 1rem;
@@ -63,15 +72,50 @@
 }
 
 .btn:hover {
-  background-color: #FF8F1F;  /* Naranja más claro para hover */
+  background-color: #FF8F1F; /* Naranja más claro para hover */
 }
 
-/* Button Variants */
+/* Botones secundarios */
 .btn-secondary {
-  background-color: #5D5D5D;  /* Gris suave */
+  background-color: #5D5D5D;
   color: white;
 }
 
 .btn-secondary:hover {
-  background-color: #757575;  
+  background-color: #757575;
 }
+@media (min-width: 768px) {
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem; 
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.8rem;  /* Reducir el tamaño del título */
+  }
+
+  .subtitle {
+    font-size: 1rem; /* Reducir el tamaño del subtítulo */
+  }
+
+  .nav ul {
+    flex-direction:row;
+    gap: 25px;
+  }
+
+  .logo {
+    height: 40px; /* Reducir el tamaño del logo en móviles */
+  }
+
+  .nav ul li a {
+    font-size: 1rem;  /* Reducir tamaño de fuente de los enlaces */
+  }
+
+  .btn {
+    width: 100%; /* Botones de ancho completo en pantallas pequeñas */
+  }
+}
+

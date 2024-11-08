@@ -18,7 +18,7 @@ body {
 
 .text-content {
   width: 100%;  /* El contenedor de texto ocupa todo el ancho */
-  margin-bottom: 20px;  /* Espacio entre el texto y la imagen */
+  margin-bottom: 20px;  
 }
 
 .home-img {
