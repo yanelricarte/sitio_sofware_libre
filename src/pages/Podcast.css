@@ -1,0 +1,69 @@
+/* Contenedor principal de contenido */
+.content {
+  padding: 2rem;
+  text-align: center;
+  background-color: #F9F9F9; /* Fondo claro para un look fresco y moderno */
+}
+
+/* Contenedor de las tarjetas de podcast */
+.podcast-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* Estilo de cada tarjeta de podcast */
+.podcast-card {
+  background-color: #ffffff; /* Fondo blanco limpio */
+  border-radius: 12px; /* Bordes más redondeados para un diseño suave */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.05); /* Sombra sutil para profundidad */
+  padding: 2rem;
+  max-width: 320px; /* Maximizar el tamaño de las tarjetas */
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* Estilo de los títulos dentro de las tarjetas */
+.podcast-card h4 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #333; /* Gris oscuro para los títulos */
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+/* Descripción de cada podcast */
+.podcast-card p {
+  font-size: 1rem;
+  color: #777; /* Gris suave para el texto */
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+  max-height: 100px; /* Limitar altura para evitar desbordes */
+  overflow: hidden; /* El contenido excedente se oculta */
+}
+
+/* Estilo del botón dentro de las tarjetas */
+.podcast-card .btn {
+  background-color: #FF6F00; /* Naranja suave */
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Efecto hover sobre el botón */
+.podcast-card .btn:hover {
+  background-color: #FF8C1A; /* Naranja más brillante */
+  color: #F9F9F9; /* Color de texto claro */
+}
+
+/* Efecto hover en la tarjeta */
+.podcast-card:hover {
+  transform: translateY(-12px); /* Elevar ligeramente la tarjeta */
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15); /* Sombra más fuerte para dar énfasis */
+  background-color: #FAFAFA; /* Fondo ligeramente gris claro al hacer hover */
+}

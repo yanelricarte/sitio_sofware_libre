@@ -1,0 +1,45 @@
+/* src/App.css */
+.app {
+  font-family: 'Poppins', sans-serif;  /* Tipografía moderna y limpia */
+  margin: 0;
+  padding: 0;
+  background-color: #F4F4F9;  /* Fondo claro para un estilo fresco y minimalista */
+}
+
+.content {
+  padding: 30px;
+  background-color: #FFFFFF;  /* Fondo blanco para el contenido */
+  border-radius: 10px;  /* Bordes redondeados para un diseño más suave */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Sombra sutil para dar profundidad */
+}
+
+/* Agrega un pequeño margen inferior a las secciones para una mejor separación */
+.content > section {
+  margin-bottom: 40px;
+}
+
+/* Títulos dentro de las secciones */
+.content h1, .content h2, .content h3 {
+  color: #333333;  /* Gris oscuro para los títulos */
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* Textos y párrafos dentro del contenido */
+.content p {
+  color: #666666;  /* Gris suave para el texto */
+  line-height: 1.6;
+  font-size: 1.1rem;
+  margin-bottom: 20px;  /* Espaciado entre párrafos */
+}
+
+/* Enlaces dentro del contenido */
+.content a {
+  color: #FF6F00;  /* Naranja cálido para los enlaces */
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+  color: #FF8F1F;  /* Cambio de color al hacer hover */
+}

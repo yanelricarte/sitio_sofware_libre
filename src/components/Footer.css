@@ -1,0 +1,50 @@
+.footer {
+  background-color: #2D2D2D;  /* Fondo oscuro para un buen contraste */
+  color: #FFFFFF;  /* Texto blanco para la legibilidad */
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer .footer-content p {
+  font-size: 0.9rem;
+  color: #D1D1D1;  /* Gris claro para los párrafos */
+  opacity: 0.8;
+}
+
+.footer .social-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer .social-links a {
+  color: #FF6F00;  /* Naranja vibrante para los íconos */
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer .social-links a:hover {
+  color: #FF8F1F;  /* Cambio a un tono más claro al hacer hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer .footer-content {
+    gap: 10px;
+  }
+
+  .footer .social-links {
+    gap: 15px;
+  }
+}

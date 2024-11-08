@@ -1,0 +1,86 @@
+/* src/components/Header.css */
+.header {
+  background-color: #F7F8FA;  /* Gris muy suave para el fondo, limpio y elegante */
+  color: #333333;  /* Gris oscuro para el texto */
+  padding: 20px 0;
+  font-family: 'Poppins', sans-serif;  /* Tipografía moderna */
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 50px;  /* Logo de tamaño moderado */
+}
+
+.title {
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: #2D2D2D;  /* Gris oscuro suave */
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-size: 1.6rem;
+  color: #5D5D5D;  /* Gris medio, más suave */
+  opacity: 0.8;
+}
+
+.nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.nav ul li a {
+  color: #333333;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nav ul li a:hover {
+  color: #FF6F00;  /* Naranja suave como acento */
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  background-color: #2D2D2D;  /* Fondo oscuro para el footer */
+  color: #FFFFFF;  /* Texto blanco para contraste */
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* src/components/Button.css */
+.btn {
+  background-color: #FF6F00;  /* Naranja vibrante */
+  color: white;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #FF8F1F;  /* Naranja más claro para hover */
+}
+
+/* Button Variants */
+.btn-secondary {
+  background-color: #5D5D5D;  /* Gris suave */
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #757575;  /* Gris oscuro para hover */
+}
