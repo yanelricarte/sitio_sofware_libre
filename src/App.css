@@ -1,45 +1,55 @@
-/* src/App.css */
 .app {
-  font-family: 'Poppins', sans-serif;  /* Tipografía moderna y limpia */
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #F4F4F9;  /* Fondo claro para un estilo fresco y minimalista */
+  background-color: #F4F4F9;
 }
 
 .content {
   padding: 30px;
-  background-color: #FFFFFF;  /* Fondo blanco para el contenido */
-  border-radius: 10px;  /* Bordes redondeados para un diseño más suave */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Sombra sutil para dar profundidad */
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
 }
 
-/* Agrega un pequeño margen inferior a las secciones para una mejor separación */
-.content > section {
-  margin-bottom: 40px;
+.text-content {
+  width: 100%;  /* El contenedor de texto ocupa todo el ancho */
+  margin-bottom: 20px;  /* Espacio entre el texto y la imagen */
 }
 
-/* Títulos dentro de las secciones */
-.content h1, .content h2, .content h3 {
-  color: #333333;  /* Gris oscuro para los títulos */
+.home-img {
+  width: 100%;  /* Asegura que la imagen ocupe el 100% del ancho del contenedor */
+  display: flex;
+  justify-content: flex-end;  /* Alinea la imagen a la derecha */
+  padding: 10px;
+}
+
+.home-img img {
+  width: 50%; 
+  border-bottom: solid #FF6F00 2px;
+
+}
+
+.content h3 {
+  color: #333333;
   font-weight: 600;
   margin-bottom: 15px;
 }
 
-/* Textos y párrafos dentro del contenido */
 .content p {
-  color: #666666;  /* Gris suave para el texto */
+  color: #666666;
   line-height: 1.6;
   font-size: 1.1rem;
-  margin-bottom: 20px;  /* Espaciado entre párrafos */
+  margin-bottom: 20px;
 }
 
-/* Enlaces dentro del contenido */
 .content a {
-  color: #FF6F00;  /* Naranja cálido para los enlaces */
+  color: #FF6F00;
   text-decoration: none;
 }
 
 .content a:hover {
   text-decoration: underline;
-  color: #FF8F1F;  /* Cambio de color al hacer hover */
+  color: #FF8F1F;
 }
