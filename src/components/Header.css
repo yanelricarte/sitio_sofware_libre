@@ -1,24 +1,21 @@
 .header {
   background-color: #F7F8FA;
   color: #333333;
-  padding: 1rem;
+  padding: 1.6rem;
   font-family: 'Poppins', sans-serif;
 }
 
 .header-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 0 auto;
   gap: 1rem;
-  flex-wrap: wrap; 
-  padding: 0 1rem; 
-  width: 100%;
+  flex-wrap: wrap;
+  padding: 0 1.6rem;
 }
 
 /* Logo */
 .logo {
-  height: 50px;
+  height: 5rem;
 }
 
 /* Título principal */
@@ -31,7 +28,7 @@
 
 /* Subtítulo */
 .subtitle {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: #5D5D5D;
   opacity: 0.8;
 }
@@ -39,11 +36,11 @@
 /* Navegación */
 .nav ul {
   display: flex;
-flex-direction: column;
-  gap: 25px;
+  flex-direction: column;
+  gap: 2rem;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 1rem;
 }
 
 .nav ul li a {
@@ -54,7 +51,7 @@ flex-direction: column;
 }
 
 .nav ul li a:hover {
-  color: #FF6F00; 
+  color: #FF6F00;
   text-decoration: underline;
 }
 
@@ -63,7 +60,7 @@ flex-direction: column;
   background-color: #FF6F00;
   color: white;
   padding: 12px 25px;
-  font-size: 1rem;
+  font-size: 1.4rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -72,7 +69,8 @@ flex-direction: column;
 }
 
 .btn:hover {
-  background-color: #FF8F1F; /* Naranja más claro para hover */
+  background-color: #FF8F1F;
+  /* Naranja más claro para hover */
 }
 
 /* Botones secundarios */
@@ -84,38 +82,38 @@ flex-direction: column;
 .btn-secondary:hover {
   background-color: #757575;
 }
+
 @media (min-width: 768px) {
   .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem; 
+    gap: 1rem;
     padding: 1rem;
   }
 
   .title {
-    font-size: 1.8rem;  /* Reducir el tamaño del título */
+    font-size: 1.8rem;
   }
 
   .subtitle {
-    font-size: 1rem; /* Reducir el tamaño del subtítulo */
+    font-size: 1.6rem;
   }
 
   .nav ul {
-    flex-direction:row;
-    gap: 25px;
+    flex-direction: row;
+    gap: 2.5rem;
   }
 
   .logo {
-    height: 40px; /* Reducir el tamaño del logo en móviles */
+    height: 4rem;
   }
 
   .nav ul li a {
-    font-size: 1rem;  /* Reducir tamaño de fuente de los enlaces */
+    font-size: 1.6rem;
   }
 
   .btn {
-    width: 100%; /* Botones de ancho completo en pantallas pequeñas */
+    width: 100%;
   }
 }
-

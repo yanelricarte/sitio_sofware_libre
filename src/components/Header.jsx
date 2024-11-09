@@ -1,4 +1,3 @@
-// src/components/Header.jsx
 import React from 'react';
 import './Header.css';  
 import logo from '../assets/img/logo-utn.png'; 
@@ -10,7 +9,6 @@ const Header = () => {
         <a href="/">  
           <img src={logo} className="logo" alt="Logo UTN" /> 
         </a>
-        <h1 className="title">Trabajo Integrador Final II</h1>
         <h2 className="subtitle">Gestión de Recursos Digitales con Software Libre</h2>
       </div>
       <nav className="nav">

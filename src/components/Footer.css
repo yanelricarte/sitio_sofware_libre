@@ -1,9 +1,9 @@
 .footer {
-  background-color: #2D2D2D;  /* Fondo oscuro para un buen contraste */
-  color: #FFFFFF;  /* Texto blanco para la legibilidad */
+  background-color: #2D2D2D;  
+  color: #FFFFFF;  
   padding: 40px 20px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -15,8 +15,8 @@
 }
 
 .footer .footer-content p {
-  font-size: 0.9rem;
-  color: #D1D1D1;  /* Gris claro para los párrafos */
+  font-size: 1rem;
+  color: #D1D1D1;  
   opacity: 0.8;
 }
 
@@ -35,16 +35,10 @@
 }
 
 .footer .social-links a:hover {
-  color: #FF8F1F;  /* Cambio a un tono más claro al hacer hover */
+  color: #FF8F1F;  
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
-  .footer .footer-content {
-    gap: 10px;
-  }
+@media (min-width: 768px) {
 
-  .footer .social-links {
-    gap: 15px;
-  }
 }

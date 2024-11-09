@@ -15,11 +15,12 @@
 /* Estilo para los botones */
 .btn {
   display: inline-block;
-  background-color: #FF6F00; /* Naranja suave como color principal */
+  background-color: #FF6F00; 
   text-decoration: none;
   border-radius: 50px; /* Bordes redondeados */
-  font-size: 1.1rem; 
+  font-size: 1.4rem; 
   text-align: center;
+  width: 20%;
 }
 .btn a{
   color: white !important;

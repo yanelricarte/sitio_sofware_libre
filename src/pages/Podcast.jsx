@@ -61,64 +61,65 @@ const Podcast = () => {
         </div>
       </div>
 
-      {/* Información sobre las creadoras */}
-      <div className="creators-info">
+      <div className="creators-section">
         <h3>Las creadoras de este podcast:</h3>
-        {/* Creadora 1 */}{" "}
-        <div className="creator">
-          <div className="creator-header">
-            <img
-              src={imgLinkedinBa}
-              alt="Brenda Patricia Alvarez"
-              className="creator-image"
-            />
-            <div className="creator-details">
-              <p>
-                <strong>Brenda Patricia Alvarez</strong>
-              </p>
-              <p>
-                Profesora de Lengua Inglesa
-                <span className="sub-details">Coordinadora académica</span>
-              </p>
+        <div className="creators-info">
+          {/* Creadora 1 */}{" "}
+          <div className="creator">
+            <div className="creator-header">
+              <img
+                src={imgLinkedinBa}
+                alt="Brenda Patricia Alvarez"
+                className="creator-image"
+              />
+              <div className="creator-details">
+                <p>
+                  <strong>Brenda Patricia Alvarez</strong>
+                </p>
+                <p>
+                  Profesora de Lengua Inglesa
+                  <span className="sub-details">Coordinadora académica</span>
+                </p>
 
-              <a
-                href="https://www.linkedin.com/in/brenda-patricia-alvarez-westtesten-4b65342b7/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="creator-link"
-              >
-                <i className="fab fa-linkedin"></i> Ver perfil de LinkedIn
-              </a>
+                <a
+                  href="https://www.linkedin.com/in/brenda-patricia-alvarez-westtesten-4b65342b7/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="creator-link"
+                >
+                  <i className="fab fa-linkedin"></i> Ver perfil de LinkedIn
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-        {/* Creadora 2 */}
-        <div className="creator">
-          <div className="creator-header">
-            <img
-              src={imgLinkedinYr}
-              alt="Yanel Ricarte"
-              className="creator-image"
-            />
-            <div className="creator-details">
-              <p>
-                <strong>Yanel Ricarte</strong>
-              </p>
-              <p>
-                {" "}
-                Desarrolladora de software
-                <span className="sub-details">
-                  Docente Especialista en TIC
-                </span>{" "}
-              </p>
-              <a
-                href="https://www.linkedin.com/in/yanelricarte/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="creator-link"
-              >
-                <i className="fab fa-linkedin"></i> Ver perfil de LinkedIn
-              </a>
+          {/* Creadora 2 */}
+          <div className="creator">
+            <div className="creator-header">
+              <img
+                src={imgLinkedinYr}
+                alt="Yanel Ricarte"
+                className="creator-image"
+              />
+              <div className="creator-details">
+                <p>
+                  <strong>Yanel Ricarte</strong>
+                </p>
+                <p>
+                  {" "}
+                  Desarrolladora de software
+                  <span className="sub-details">
+                    Docente Especialista en TIC
+                  </span>{" "}
+                </p>
+                <a
+                  href="https://www.linkedin.com/in/yanelricarte/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="creator-link"
+                >
+                  <i className="fab fa-linkedin"></i> Ver perfil de LinkedIn
+                </a>
+              </div>
             </div>
           </div>
         </div>

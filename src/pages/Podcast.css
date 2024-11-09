@@ -16,14 +16,10 @@
 /* Estilo de cada tarjeta de podcast */
 .podcast-card {
   background-color: #ffffff;
-  /* Fondo blanco limpio */
   border-radius: 12px;
-  /* Bordes más redondeados para un diseño suave */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.05);
-  /* Sombra sutil para profundidad */
   padding: 2rem;
   max-width: 320px;
-  /* Maximizar el tamaño de las tarjetas */
   width: 100%;
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
@@ -42,7 +38,6 @@
 .podcast-card p {
   font-size: 1rem;
   color: #777;
-  /* Gris suave para el texto */
   margin-bottom: 1.5rem;
   line-height: 1.5;
   max-height: 100px;
@@ -51,39 +46,41 @@
 
 /* Estilo del botón dentro de las tarjetas */
 .podcast-card .btn {
-  width: 50%;
+  width: 60%;
   background-color: #FF6F00;
   color: #fff;
-  padding: 0.75rem 1.5rem;
+  padding: 0.8rem 1.4rem;
   border-radius: 50px;
   text-decoration: none;
   font-weight: 600;
   display: inline-block;
   transition: background-color 0.3s ease, color 0.3s ease;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 /* Efecto hover sobre el botón */
 .podcast-card .btn:hover {
   background-color: #FF8C1A;
-  /* Naranja más brillante */
   color: #F9F9F9;
-  /* Color de texto claro */
 }
 
 /* Efecto hover en la tarjeta */
 .podcast-card:hover {
   transform: translateY(-12px);
-  /* Elevar ligeramente la tarjeta */
   box-shadow: 0 12px 25px #00000026;
-  /* Sombra más fuerte para dar énfasis */
   background-color: #FAFAFA;
-  /* Fondo ligeramente gris claro al hacer hover */
 }
-
+.creators-section{
+  margin-top: 5rem;
+}
 .creators-info {
-  margin-top: 3rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  gap: 2rem;
+
 }
 
 .creator {
@@ -91,9 +88,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
   text-align: left;
   border: 1px solid #777;
+  width: 100%;
+  padding: 1rem;
 }
 
 .creator-header {
@@ -120,7 +119,7 @@
 
 .creator-link {
   margin-top: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.4rem;
   color: #0077b5;
   text-decoration: none;
   font-weight: bold;
@@ -133,10 +132,21 @@
   text-decoration: underline;
 }
 
-.creator-link i {
-  font-size: 1.2rem;
-}
+
 
 .sub-details {
   display: block;
+}
+
+
+
+@media (min-width: 768px) {
+  .creators-info {
+    display: flex;
+    flex-direction: row;
+
+  }
+  .creator-header {
+    gap: 2.5rem;
+}
 }

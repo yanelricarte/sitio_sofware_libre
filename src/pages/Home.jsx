@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <section className="content">
         <div>
-          <h3>Bienvenidos al Proyecto</h3>
+          <h3>Bienvenidos </h3>
           <p>
             Este sitio web ha sido creado como parte del Trabajo Integrador
             Final II, en el cual se integran diversos recursos de comunicación
