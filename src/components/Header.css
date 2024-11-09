@@ -1,5 +1,5 @@
 .header {
-  background-color: #F7F8FA;
+  background-color: rgba(252, 252, 252, 255);
   color: #333333;
   padding: 1.6rem;
   font-family: 'Poppins', sans-serif;
@@ -11,11 +11,13 @@
   gap: 1rem;
   flex-wrap: wrap;
   padding: 0 1.6rem;
+  background-color: rgba(252, 252, 252, 255);
 }
 
 /* Logo */
 .logo {
-  height: 5rem;
+  width: 20%;
+
 }
 
 /* Título principal */
@@ -107,7 +109,7 @@
   }
 
   .logo {
-    height: 4rem;
+  width: 20%;
   }
 
   .nav ul li a {

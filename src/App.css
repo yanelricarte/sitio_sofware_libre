@@ -30,6 +30,7 @@ html{
 .home-img {
   width: 100%;  
   display: flex;
+background-color:  rgba(254,254,254,255);
 }
 
 .home-img img {
