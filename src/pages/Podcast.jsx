@@ -31,9 +31,7 @@ const Podcast = () => {
         <div className="podcast-card">
           <h4>Episodio 2</h4>
           <p>
-            En este episodio, profundizamos en temas clave sobre comunicación
-            digital.
-          </p>
+          En este episodio, exploramos en temas clave relacionados con el método SOFLA en la enseñanza de clases online </p>
           <a
             href="https://on.soundcloud.com/kZjhdERJ1UjmEByR8"
             target="_blank"
