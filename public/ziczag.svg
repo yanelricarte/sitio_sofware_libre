@@ -1,5 +1,4 @@
-
-      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
-  <text x="5" y="18" font-family="Arial" font-size="24" fill="#19344c" font-weight="lighter">e</text>
-  <circle cx="16" cy="15" r="2" fill="#19344c" />
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+  <text x="5" y="18" font-family="Helvetica Neue Ultra Light, Arial" font-size="24" fill="#75d4e4">e</text>
+  <circle cx="16" cy="15" r="2" fill="#75d4e4" />
 </svg>

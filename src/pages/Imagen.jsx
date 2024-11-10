@@ -7,10 +7,9 @@ const Imagen = () => {
     <section className="content">
       <h2>Imagen - Clase Online Invertida</h2>
       
-      {/* Imagen ilustrativa importada */}
       <div className="image-container">
         <img 
-          src={aulaInvImage}  // Usamos la imagen importada aquí
+          src={aulaInvImage} 
           alt="Imagen de clase invertida"
           className="imagen-clase-invertida" 
         />

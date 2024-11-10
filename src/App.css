@@ -1,21 +1,25 @@
 body {
-  margin: 0;  
+  margin: 0;
 }
-html{
+
+html {
   font-size: 10px;
 }
+
 .app {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #F4F4F9;
 }
+
 .section-home {
   background-color: #FFFFFF;
   border-radius: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 
 }
+
 .content {
   background-color: #FFFFFF;
   padding: 3rem;
@@ -23,20 +27,20 @@ html{
 }
 
 .text-content {
-  width: 100%;  
-  margin-bottom: 2rem;  
+  width: 100%;
+  margin-bottom: 2rem;
 }
 
 .home-img {
-  width: 100%;  
+  width: 100%;
   display: flex;
-background-color:  rgba(254,254,254,255);
+  background-color: rgba(254, 254, 254, 255);
 }
 
 .home-img img {
-  width: 100%; 
+  width: 100%;
   border-bottom: solid #FF6F00 2px;
-
+  margin-bottom: 1.5rem;
 }
 
 .content h3 {
@@ -65,14 +69,15 @@ background-color:  rgba(254,254,254,255);
 
 @media (min-width: 768px) {
   .home-img {
-    width: 100%;  
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     padding: 1rem;
+    box-sizing: border-box;
   }
-  
+
   .home-img img {
-    width: 50%; 
-  
+    width: 50%;
+
   }
 }

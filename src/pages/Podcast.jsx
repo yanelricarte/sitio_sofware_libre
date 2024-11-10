@@ -8,9 +8,7 @@ const Podcast = () => {
     <section className="content">
       <h3>Podcast</h3>
       <p>
-        Escucha los episodios de nuestro podcast sobre la temática de
-        comunicación digital.
-      </p>
+        Escucha los episodios de nuestro podcast sobre el método SOFLA en el dictado de clases online.      </p>
 
       <div className="podcast-cards-container">
         {/* Episodio 1 */}
