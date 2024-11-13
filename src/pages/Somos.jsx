@@ -9,15 +9,6 @@ const Somos = () => {
       <h3>¿Quiénes somos?</h3>
       <p>
         Somos un equipo dedicado a la educación y el desarrollo de soluciones tecnológicas. Nuestra misión es acercar el conocimiento y fomentar el uso de herramientas digitales en el ámbito educativo. Te invitamos a conocernos mejor y a unirte a nuestras iniciativas.
-        <br />
-        <a
-          href="https://edunologysofla.milaulas.com/login/index.php"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="course-link"
-        >
-          Podés conocer nuestro curso en Moodle aquí.
-        </a>
       </p>
 
       <div className="creators-section">
