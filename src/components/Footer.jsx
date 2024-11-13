@@ -6,8 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p>
-        Trabajo realizado para la materia de Gestión de Recursos
-        Digitales con Software Libre.
+        Trabajo realizado para la materia de Gestión de Recursos Digitales con Software Libre.
       </p>
       <div className="social-links">
         <p>Contactate con nosotras:</p>
