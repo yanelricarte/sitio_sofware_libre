@@ -18,6 +18,7 @@ const Header = () => {
           <li><a href="/revista">Revista Digital</a></li>
           <li><a href="/podcast">Podcast</a></li>
           <li><a href="/video">Video</a></li>
+          <li><a href="/somos">¿Quiénes somos?</a></li>
         </ul>
       </nav>
 

@@ -9,6 +9,7 @@ import Revista from './pages/Revista';
 import Podcast from './pages/Podcast';
 import Video from './pages/Video';
 import './App.css';  
+import Somos from './pages/Somos';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/revista" element={<Revista />} />
           <Route path="/podcast" element={<Podcast />} />
           <Route path="/video" element={<Video />} />
+          <Route path="/somos" element={<Somos />} />
         </Routes>
       </main>
       <Footer />
