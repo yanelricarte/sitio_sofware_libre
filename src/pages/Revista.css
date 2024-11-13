@@ -9,7 +9,7 @@
 .revista-thumbnail {
   max-width: 100%;
   border-radius: 12px; /* Bordes más redondeados */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
 }
 
 /* Estilo para los botones */
@@ -30,12 +30,12 @@
 
 /* Efecto hover para el botón */
 .btn:hover {
-  background-color: #FF8C1A; /* Naranja más brillante */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra más fuerte en hover */
+  background-color: #FF8C1A; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
 }
 
 /* Efecto de enfoque en el botón */
 .btn:focus {
-  outline: none; /* Remueve el contorno por defecto */
-  box-shadow: 0 0 10px rgba(255, 140, 26, 0.8); /* Sombra destacada cuando está enfocado */
+  outline: none; 
+  box-shadow: 0 0 10px rgba(255, 140, 26, 0.8); 
 }
